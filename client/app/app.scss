@@ -1,0 +1,49 @@
+@import "common/common";
+
+.app {
+  height: 100%;
+  background-color: #EEE;
+}
+
+.page-content {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.mdl-layout__drawer-button {
+  display: none;
+}
+
+.mdl-layout__header-row {
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .mdl-layout__drawer-button {
+    display: block;
+    margin: 4px;
+    color: rgba(255,255,255,1);
+    background-color: transparent;
+  }
+
+  .drawer-nav .mdl-navigation {
+    padding-top: 0;
+  }
+
+  .drawer-title {
+    padding: 16px;
+  }
+
+  .mdl-layout__header {
+    display: block;
+  }
+
+  .mdl-layout__header-row {
+    padding: 0 20px 0 60px;
+  }
+
+  .navbar--desktop {
+    display: none;
+  }
+}
